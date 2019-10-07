@@ -1,0 +1,10 @@
+<MyCheckBox>:
+    canvas.before:
+        Color:
+            rgba: self.rgba
+        Rectangle:
+            pos: self.x + float(self.width / 2) - self.height / 2, self.y
+            size: [self.height, self.height]
+<TextInput>:
+    write_tab: False
+
